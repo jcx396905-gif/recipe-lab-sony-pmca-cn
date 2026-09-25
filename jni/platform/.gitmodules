@@ -1,0 +1,4 @@
+[submodule "stlport"]
+	path = stlport
+	url = https://git.code.sf.net/p/stlport/code
+	ignore = untracked

@@ -1,0 +1,24 @@
+# 构建产物
+out/
+dist/
+*.apk
+*.ids
+build/
+
+# 签名
+*.keystore
+*.jks
+
+# 本地工具链（不要提交）
+tools/bt/
+tools/plat/
+
+# 编辑器 / 系统
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Node（仅 CI 用）
+node_modules/

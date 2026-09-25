@@ -1,0 +1,18 @@
+{
+  "name": "recipe-lab-sony-pmca",
+  "version": "0.0.0-managed-by-semantic-release",
+  "private": true,
+  "type": "module",
+  "description": "Release tooling only. No JavaScript ships in the APK \u2014 this exists so semantic-release can decide versions from commit messages.",
+  "scripts": {
+    "semantic-release": "semantic-release",
+    "semantic-release:dry": "semantic-release --dry-run --no-ci"
+  },
+  "devDependencies": {
+    "@semantic-release/exec": "^7.1.0",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^11.0.6",
+    "conventional-changelog-conventionalcommits": "^9.1.0",
+    "semantic-release": "^24.2.9"
+  }
+}
