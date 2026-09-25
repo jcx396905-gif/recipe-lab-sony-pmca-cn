@@ -30,6 +30,19 @@
 
 未翻译的仅有运行时传给相机 HAL 的参数键值（如 `standard`、`toy-camera`），这些是协议值，必须保持原样。
 
+## 实机验证
+
+以下为 **A7R II 上实际运行本中文版**的屏幕实拍（相机贴有碳纤维保护贴）。可见中文字体渲染完全正常（无方框乱码），
+品牌浏览器、配方名称、参数条与按键提示均已完整汉化。
+
+| 品牌浏览器（理光 GR 分组） | 哈苏 HNCS 自然色 | 徕卡 Monochrom 黑白 |
+|---|---|---|
+| [![品牌浏览器](docs/screenshots/01-brand-browser.jpg)](docs/screenshots/01-brand-browser.jpg) | [![哈苏 HNCS 自然色](docs/screenshots/02-hasselblad-hncs.jpg)](docs/screenshots/02-hasselblad-hncs.jpg) | [![徕卡 Monochrom 黑白](docs/screenshots/03-leica-monochrom.jpg)](docs/screenshots/03-leica-monochrom.jpg) |
+
+- **左图**：品牌浏览器 —— 左侧为中文品牌分组及配方数量（富士模拟 16、富士胶片 5、柯达 14、电影 4、理光 GR 8、徕卡 4、哈苏 1、佳能/尼康 5、松下/奥林巴斯 5…），右侧为「理光 GR」组的 8 个中文配方，底部提示「配方 / 关闭」
+- **中图**：主面板显示「哈苏 HNCS 自然色」（60 / 77），带「预览」状态徽章，参数条标签（画质/风格/饱和/对比/锐度/矩阵/特效/子项/白平衡/色温/A-B/G-M/DRO）与底部按键提示（浏览/选定/收藏(长按)/出厂/隐藏/退出）全部中文
+- **右图**：主面板显示「徕卡 Monochrom 黑白」（62 / 77），同样中文渲染正常
+
 ## 支持机型
 
 **官方确认可用**（写入后能跨关机保存）：
